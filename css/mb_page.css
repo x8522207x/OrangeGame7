@@ -12,7 +12,7 @@
     }
 
     ._buttons ._detail-link {
-        font-size: 36px;
+        font-size: 26px;
     }
 
     ._buttons ._detail-link:before {
@@ -88,9 +88,6 @@
 
     section.section--hero .area__content ._header ._period {
         background-image: url(../img/mo/s1_period_m.png);
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        background-size: contain;
         width: 300.5px;
         height: 34px;
         margin-top: 18px;
@@ -98,13 +95,6 @@
 
     section.section--hero .area__content ._content {
         justify-content: center;
-    }
-
-    section.section--hero .area__content ._content ._item {
-        display: none;
-        width: 327.5px;
-        height: 148px;
-        margin-left: 75px;
     }
 
     section.section--hero .area__content ._content ._video-button {
@@ -118,11 +108,8 @@
 
     section.section--store .area__content ._header ._title {
         background-image: url(../img/mo/s2_title_m.png);
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 370.125px;
-        height: 57.375px;
+        width: 329px;
+        height: 51px;
         -webkit-text-fill-color: #0000;
     }
 
@@ -183,8 +170,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         margin-top: 15px;
-        width: 324.5px;
-        height: 31.5px;
+        width: 308.5px;
+        height: 43px;
     }
 
     section.section--contest .area__content ._content {

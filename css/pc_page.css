@@ -153,6 +153,7 @@
 }
 
 .nav-side ol li button {
+    font-family: "Noto Serif TC", serif;
     font-size: 17px;
     width: 100%;
 }
@@ -380,7 +381,7 @@ section.section--hero .area__content>:not(.layout-escape) {
 }
 
 section.section--hero .area__content .area__content__wrap {
-    justify-content: center;
+    justify-content: flex-start;
     margin: unset
 }
 
@@ -395,9 +396,9 @@ section.section--hero .area__content ._header ._title {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 54px;
     transform: translate3d(-3.5%, 0, 0);
-    width: min(556.5px, 102vw);
+    margin-top: 50px;
+    width: min(834.75px, 102vw);
     -webkit-text-size-adjust: none;
     height: auto
 }
@@ -416,8 +417,8 @@ section.section--hero .area__content ._header ._period {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 281.5px;
-    height: 32.5px;
+    width: 422.25px;
+    height: 48.75px;
     margin-top: 10px
 }
 
@@ -443,16 +444,6 @@ section.section--hero .area__content ._content ._video-button {
 
 section.section--hero .area__content ._content ._video-button:hover {
     background-image: url(../img/pc/s1_btn_play_round_active.png);
-}
-
-section.section--hero .area__content ._content ._item {
-    background-image: url(../img/pc/s1_item.png);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 655px;
-    height: 296px;
-    margin-left: 150px;
 }
 
 section.section--hero .area__content ._scroll {
@@ -680,8 +671,8 @@ section.section--contest .area__content ._content {
         background-size: contain;
         width: 339.5px;
         height: 286px;
-        margin-top: -350px;
-        margin-right: 650px;
+        margin-top: -600px;
+        margin-right: 900px;
         z-index: 0;
         position: absolute;
     }
@@ -693,8 +684,8 @@ section.section--contest .area__content ._content {
         background-size: contain;
         width: 251.5px;
         height: 229.5px;
-        margin-top: -350px;
-        margin-left: 650px;
+        margin-top: -450px;
+        margin-left: 850px;
         z-index: 0;
         position: absolute;
     }
@@ -718,8 +709,8 @@ section.section--contest .area__content ._content {
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 34px;
-        width: 736.5px;
+        height: 85px;
+        width: 620px;
     }
 
     section.section--contest .area__content ._header ._period {
@@ -728,8 +719,8 @@ section.section--contest .area__content ._content {
         background-repeat: no-repeat;
         background-size: contain;
         margin-top: 20px;
-        height: 35.5px;
-        width: 362.5px;
+        height: 55px;
+        width: 416px;
     }
 
     section.section--contest .area__content ._content {

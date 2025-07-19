@@ -27,7 +27,7 @@ $(document).ready(() => {
     });
 
     $('._video-button').on('click', () => {
-        openVideo('POTYvJrDwp4');
+        openVideo('TGC1-n37LQA');
     });
 
     function pcTouchMove(swiper) {
@@ -139,7 +139,6 @@ $(document).ready(() => {
                         }
                     });
 
-                    const visual = $(".area__visual");
                     const title = $("._title");
                     const desc = $("._description");
                     const period = $("._period");
@@ -147,11 +146,6 @@ $(document).ready(() => {
                     if (swiper.realIndex === 0) {
                         const videoBtn = $("._video-button");
                         const item = $("._item");
-                        g.from(visual, {
-                            opacity: .8,
-                            filter: "brightness(1.5) contrast(1.2)",
-                            duration: 4
-                        }, 0);
                         g.from(title, {
                             opacity: 0,
                             duration: 1.2,
@@ -177,11 +171,6 @@ $(document).ready(() => {
                         }, .8);
                     } else if (swiper.realIndex === 1) {
                         const link = $("._detail-link");
-                        g.from(visual, {
-                            opacity: .8,
-                            filter: "brightness(1.5) contrast(1.2)",
-                            duration: 4
-                        }, 0);
                         g.from(title, {
                             opacity: 0,
                             y: -20
@@ -205,11 +194,6 @@ $(document).ready(() => {
                             y: 20
                         }, 1.2);
                     } else if (swiper.realIndex === 2) {
-                        g.from(visual, {
-                            opacity: .8,
-                            filter: "brightness(1.5) contrast(1.2)",
-                            duration: 4
-                        }, 0);
                         g.from(title, {
                             opacity: 0,
                             y: -20
