@@ -95,11 +95,22 @@
 
     section.section--hero .area__content ._content {
         justify-content: center;
+        flex-direction: row-reverse;
     }
 
     section.section--hero .area__content ._content ._video-button {
         width: 111.5px;
         height: 115.5px;
+    }
+
+    section.section--hero .area__content ._content ._item {
+        width: 136.125px;
+        height: 129px;
+    }
+
+    section.section--hero .area__content ._content ._item:hover {
+        width: 226px;
+        height: 155.5px;
     }
 
     section.section--store .area__content ._header {
@@ -182,5 +193,15 @@
         height: 436.875px;
         margin-top: 30px;
         width: 371.625px;
+    }
+
+    section.section--contest .area__content ._content .btn1 {
+        left: 5px;
+        top: 115px;
+    }
+
+    section.section--contest .area__content ._content .btn2 {
+        left: 275px;
+        top: 85px;
     }
 }

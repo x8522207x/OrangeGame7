@@ -397,7 +397,7 @@ section.section--hero .area__content ._header ._title {
     background-repeat: no-repeat;
     background-size: contain;
     transform: translate3d(-3.5%, 0, 0);
-    margin-top: 50px;
+    margin-top: 35px;
     width: min(834.75px, 102vw);
     -webkit-text-size-adjust: none;
     height: auto
@@ -427,7 +427,7 @@ section.section--hero .area__content ._content {
     justify-content: center;
     display: inline-flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 6px;
     width: 100%;
 }
 
@@ -444,6 +444,29 @@ section.section--hero .area__content ._content ._video-button {
 
 section.section--hero .area__content ._content ._video-button:hover {
     background-image: url(../img/pc/s1_btn_play_round_active.png);
+}
+
+section.section--hero .area__content ._content ._item {
+    background-image: url(../img/pc/p1_popup_close.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 272.25px;
+    height: 258px;
+    animation: shine-benefit .7s ease infinite alternate;
+    content: "";
+    display: inline-block;
+    transform-origin: 0 0;
+    transition: opacity .3s cubic-bezier(.33, 1, .68, 1), transform .3s cubic-bezier(.33, 1, .68, 1);
+}
+
+section.section--hero .area__content ._content ._item:hover {
+    pointer-events: all;
+    transform: scale(1);
+    transition-duration: .4s;
+    background-image: url(../img/pc/p1_popup_open.png);
+    width: 452px;
+    height: 311px;
 }
 
 section.section--hero .area__content ._scroll {
@@ -487,9 +510,9 @@ section.section--store .area__content ._description {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 32px;
+    height: 74.5px;
     margin-top: 24px;
-    width: 629.5px;
+    width: 588.5px;
 }
 
 section.section--store .area__content ._period {
@@ -540,6 +563,28 @@ section.section--contest .area__content ._content {
     color: #0000 !important;
     font-size: 0 !important;
     -webkit-text-size-adjust: none
+}
+
+section.section--contest .area__content ._content a {
+    background-image: url(../img/pc/btn-twitch.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 92px;
+    display: block;
+}
+
+section.section--contest .area__content ._content .btn1 {
+    position: relative;
+    left: 40px;
+    top: 70px;
+}
+
+section.section--contest .area__content ._content .btn2 {
+    position: relative;
+    left: 425px;
+    top: 40px;
 }
 
 .area,
